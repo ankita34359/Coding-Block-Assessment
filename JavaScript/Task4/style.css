@@ -1,0 +1,26 @@
+body {
+            padding: 50px;
+        }
+
+        #pass {
+            padding: 5px;
+            border: 1px solid #ccc;
+            width: 200px;
+            margin-bottom: 10px;
+        }
+        .store {
+            width: 100%;
+            height: 10px;
+            background-color: #eeeef3;
+            margin-bottom: 10px;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+        #bar {
+            height: 100%;
+            width: 0%; 
+        }
+        #text {
+            font-size: 16px;
+            font-weight: 500;
+        }

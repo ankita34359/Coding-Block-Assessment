@@ -1,0 +1,47 @@
+.store{
+    padding: 15px;
+}
+
+.options button{
+    margin: 5px;
+    padding: 10x;
+    cursor: pointer;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+
+.medium {
+    width: 200px;
+    height: 200px;
+}
+
+.large {
+    width: 250px;
+    height: 250px;
+}
+
+.list {
+    flex-direction: column;
+}
