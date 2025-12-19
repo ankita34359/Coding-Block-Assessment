@@ -1,4 +1,4 @@
-const Select = document.getElementById('planSelect');
+const Select = document.getElementById('Select');
         const button = document.getElementById('button');
         const plan = document.getElementById('plan');
         const price = document.getElementById('price');
@@ -12,12 +12,12 @@ const Select = document.getElementById('planSelect');
         let years = false;
 
         function updateDisplay() {
-            const Plan = planSelect.value;
+            const Plan = Select.value;
             const Price = years ? prices[Plan].yearly : prices[Plan].monthly;
             plan.textContent = Plan.charAt(0).toUpperCase() + Plan.slice(1);
             price.textContent = `₹${Price}`;
         }
-        planSelect.addEventListener('change', updateDisplay);
+        Select.addEventListener('change', updateDisplay);
 
         button.addEventListener('click', () => {
             years = !years;
