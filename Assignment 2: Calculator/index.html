@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <h1 id="heading">Calculator</h1>
+    <div class="big-container">
+        <div class="medium-container">
+            <input type="text" id="show">
+        </div>
+            <div class="small-container buttons" id="operations">
+                <div class="buttons">
+                <button onclick="erase()">AC</button>
+                <button onclick="percentage()">%</button>
+                <button onclick="Delete()">Delete</button>
+                <button onclick="operators('/')">/</button>
+                </div>
+                <div class="buttons">
+                <button onclick="showNumbers(7)">7</button>
+                <button onclick="showNumbers(8)">8</button>
+                <button onclick="showNumbers(9)">9</button>
+                <button onclick="operators('*')">*</button>
+                </div>
+                <div class="buttons">
+                <button onclick="showNumbers(4)">4</button>
+                <button onclick="showNumbers(5)">5</button>
+                <button onclick="showNumbers(6)">6</button>
+                <button onclick="operators('-')">-</button>
+                </div>
+                <div class="buttons">
+                <button onclick="showNumbers(1)">1</button>
+                <button onclick="showNumbers(2)">2</button>
+                <button onclick="showNumbers(3)">3</button>
+                <button onclick="operators('+')">+</button>
+                </div>
+                <div class="buttons">
+                <button onclick="showNumbers('00')">00</button>
+                <button onclick="showNumbers(0)">0</button>
+                <button onclick="decimal()">.</button>
+                <button onclick="calculate()">=</button>
+                </div>
+            </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
