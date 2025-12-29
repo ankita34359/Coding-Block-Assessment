@@ -1,0 +1,51 @@
+body{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.box{
+    height: 200px;
+    width: 450px;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    display: grid;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(121, 118, 118);
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+
+#add{
+    margin-top: 10px;
+    padding: 5px 15px;
+    background-color: rgb(68, 68, 243);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#show{
+    margin-top: 10px;
+    padding: 5px 15px;
+    background-color: rgb(112, 111, 111);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.box input{
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#add:hover{
+    background-color: rgb(47, 47, 242);
+}
+
+#show:hover{
+    background-color: rgb(76, 75, 75);
+}
